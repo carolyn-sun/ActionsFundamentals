@@ -26,6 +26,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Hello World Docker container
-        uses: docker://Dockerfile
+        uses: ActionsFundamentals/Dockfile@main
         with:
           args: ${{ inputs.who-to-greet }}
